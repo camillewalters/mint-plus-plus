@@ -1,10 +1,8 @@
 import mintapi
-
-email = 'camille.h.walters@gmail.com'
-password = 'FMScnps7^'
+import info
 
 mint = mintapi.Mint(
-email, password,  # Your password used to log in to mint
+info.email, info. password,  # Your password used to log in to mint
 # Optional parameters
 mfa_method='sms',  # See MFA Methods section
                    # Can be 'sms' (default), 'email', or 'soft-token'.
